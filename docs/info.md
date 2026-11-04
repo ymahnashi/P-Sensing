@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The P-Sensing circuit works by entering a signal in the input pin, to extract it's slope, and then the slope will be compared against a dc voltage to either activate the system or not
 
 ## How to test
 
-Explain how to use your project
+Enter a Signal in the VIN pin
+Enter a dc voltage in Vst
+Probe the output for the activation signal
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Needs an oscilloscope to check the output signal 
